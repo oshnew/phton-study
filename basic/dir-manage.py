@@ -2,7 +2,7 @@ import os
 
 print("\n### Start: 디렉토리 존재 확인 후 생성 테스트")
 
-dir_path = "c:\\temp-190608"
+dir_path = "c:\\temp_190608"
 print("디렉토리: " + dir_path)
 
 is_exist_dir = os.path.exists(dir_path)  # 디렉토리 존재 확인
